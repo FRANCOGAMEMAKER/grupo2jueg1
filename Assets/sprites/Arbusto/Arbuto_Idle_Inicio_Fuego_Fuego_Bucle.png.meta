@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: a3ec146acd64d08468b89798a8103bcf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5540865965391143776
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_0
+  - first:
+      213: 7953133211625667116
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_1
+  - first:
+      213: 8063406276218361618
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_2
+  - first:
+      213: -6240952489753115108
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_3
+  - first:
+      213: -4925465345763998247
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_4
+  - first:
+      213: -7203267846892669022
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_5
+  - first:
+      213: 3752100646777007763
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_6
+  - first:
+      213: -2447154548879190677
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_7
+  - first:
+      213: 4988665425103121694
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_8
+  - first:
+      213: 8684730449242542526
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_9
+  - first:
+      213: -6299127081598372563
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_10
+  - first:
+      213: -7626022478795802727
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_11
+  - first:
+      213: 5011869828112746073
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_12
+  - first:
+      213: -1353266879759493130
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_13
+  - first:
+      213: -1848872854553792983
+    second: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 59.333336
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063e03f1d3c15ec40800000000000000
+      internalID: 5540865965391143776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 30.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a3f4ab4843f5e60800000000000000
+      internalID: 7953133211625667116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 30.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21796a55949f6ef60800000000000000
+      internalID: 8063406276218361618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 30.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c160d2cc6cea369a0800000000000000
+      internalID: -6240952489753115108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 30.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d58d304d5b35abb0800000000000000
+      internalID: -4925465345763998247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 30.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a738fbce0ad80c90800000000000000
+      internalID: -7203267846892669022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 30.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e28a4a8a3221430800000000000000
+      internalID: 3752100646777007763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_7
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 30.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65139347e5f90ed0800000000000000
+      internalID: -2447154548879190677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 30.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d6b86e5cc4b3540800000000000000
+      internalID: 4988665425103121694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1de15745c568870800000000000000
+      internalID: 8684730449242542526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2539422b410598a0800000000000000
+      internalID: -6299127081598372563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9977b3eb5fcea2690800000000000000
+      internalID: -7626022478795802727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956882dfd0dbd8540800000000000000
+      internalID: 5011869828112746073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f752a951fa383de0800000000000000
+      internalID: -1353266879759493130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arbuto_Idle_Inicio_Fuego_Fuego_Bucle_14
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1.333334
+        width: 31.625
+        height: 29.666666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e657d3feb7756e0800000000000000
+      internalID: -1848872854553792983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
