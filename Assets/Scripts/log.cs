@@ -7,7 +7,7 @@ public class log : MonoBehaviour
      bool go_out=false;
      public GameObject tr1,tr2,ogmesh;
      Vector3 spikes_og_size;
-    float timercurr,timermax=1;bool tilt=false;
+    public float timercurr,timermax=1;bool tilt=false;
     // Start is called before the first frame update
     void Start()
     {
