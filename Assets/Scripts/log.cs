@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class log : MonoBehaviour
 {
-     public float curr_time,delay=1,time_in=1,time_out=1;
      bool go_out=false;
-     public GameObject spikes,meltmesh1,meltmesh2;
+     public GameObject tr1,tr2,ogmesh;
      Vector3 spikes_og_size;
     float timercurr,timermax=1;bool tilt=false;
     // Start is called before the first frame update
@@ -22,12 +21,15 @@ public class log : MonoBehaviour
             timercurr += Time.deltaTime;
             if (timercurr >= timermax)
             {
-                Die();
-                 meltmesh2.transform.localScale=   new Vector3(1,1,1);    meltmesh1.transform.localScale=   new Vector3(0,0,0);      
+                this.tag="Ouch";
+                 tr2.tag="Ouch";
+                   
+                 tr2.transform.localScale=   new Vector3(1,1,1);    tr1.transform.localScale=   new Vector3(0,0,0);  
+                    
             }
             if(timercurr<timermax)
             {
-                    meltmesh1.transform.localScale=   new Vector3(1,1,1); meltmesh2.transform.localScale=   new Vector3(0,0,0);        
+                    tr1.transform.localScale=   new Vector3(1,1,1); tr2.transform.localScale=   new Vector3(0,0,0);        
    
             }
            
@@ -50,6 +52,6 @@ public class log : MonoBehaviour
     }private void OnTriggerEnter2D(Collider2D other)
     {
  if (other.tag=="Player")
-        {tilt=true;}       
+        {tilt=true; ogmesh.transform.localScale=   new Vector3(0,0,0); }       
     }
 }
