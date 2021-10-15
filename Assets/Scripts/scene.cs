@@ -14,7 +14,7 @@ public class scene : MonoBehaviour
             
             case 0:Invoke("changetogame",14);
             break;
-            case 1://Invoke();
+            case 1:changetomenutim();
             break;
             case 2://Invoke();
             break;
