@@ -30,6 +30,10 @@ public class scene : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+      public void changetomenutim()
+    {
+        Invoke("changetomenu",5);
+    }
      public void changetointro()
     {
         SceneManager.LoadScene("intro");
