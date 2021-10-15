@@ -30,5 +30,23 @@ public class scene : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+     public void changetointro()
+    {
+        SceneManager.LoadScene("intro");
+    }
+     public void changetomenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+      public void changetocontrol()
+    {
+        SceneManager.LoadScene("control");
+    }
+      public void quit()
+    {
+            Application.Quit();
+
+    }
+    
     
 }
