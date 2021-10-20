@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Respiracion : MonoBehaviour
 {
@@ -10,8 +11,6 @@ public class Respiracion : MonoBehaviour
     public bool ActivarRespiracion = true;
     public float Oxigeno;
     float MaxOxigeno = 1;
-
-    // Update is called once per frame
     void Update()
     {
         if(ActivarRespiracion)
@@ -23,9 +22,14 @@ public class Respiracion : MonoBehaviour
             Oxigeno -= 0.25f;
 
         if (Oxigeno > MaxOxigeno)
-            Oxigeno = 1;
+            changedead();
 
         if (Oxigeno < 0)
-            Oxigeno = 0; //Cambiar esto por ejecutar muerte
+            Oxigeno = 0;
+    }
+
+    public void changedead()
+    {
+        SceneManager.LoadScene("end");
     }
 }

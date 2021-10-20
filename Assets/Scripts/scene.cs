@@ -5,22 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class scene : MonoBehaviour
 {
-    public int sceneind;
-    // Start is called before the first frame update
-    void Start()
-    {
-        switch (sceneind)
-        {
-            
-            case 0:Invoke("changetogame",14);
-            break;
-            case 1:changetomenutim();
-            break;
-            case 2://Invoke();
-            break;
-        }
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -30,27 +14,24 @@ public class scene : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
-      public void changetomenutim()
+    public void changetomenutim()
     {
-        Invoke("changetomenu",5);
+        Invoke("changetomenu", 5);
     }
-     public void changetointro()
+    public void changetointro()
     {
         SceneManager.LoadScene("intro");
     }
-     public void changetomenu()
+    public void changetomenu()
     {
         SceneManager.LoadScene("Menu");
     }
-      public void changetocontrol()
+    public void changetocontrol()
     {
         SceneManager.LoadScene("control");
     }
-      public void quit()
+    public void quit()
     {
-            Application.Quit();
-
+        Application.Quit();
     }
-    
-    
 }
