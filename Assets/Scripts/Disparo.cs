@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Disparo : MonoBehaviour
 {
-    public int agua;
-    public int MaxAgua;
+    public float agua;
+    public float MaxAgua;
 
+    public Image Barra;
     public GameObject Bullet;
     public Transform TR;
     public float speed;
@@ -24,18 +26,9 @@ public class Disparo : MonoBehaviour
             rb.AddForce(TR.right * speed, ForceMode2D.Impulse);
             agua -= 1;
         }
-    }
 
-    //void Disparar()
-   // {
-   //     Direction = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-   //     if (Input.GetKey(KeyCode.Mouse0) && agua > 0)
-   //     {
-   //         Instantiate(Bullet, TR.position, TR.rotation);
-   //         Bullet.GetComponent<Bullet>().Direction = Direction;
-   //         agua -= 1;
-   //     }
-    //}
+        BarraMostrar();
+    }
    
      private void OnTriggerStay2D(Collider2D collision)
     {
@@ -48,5 +41,10 @@ public class Disparo : MonoBehaviour
         {
             agua = MaxAgua;
         }
+    }
+
+    void BarraMostrar()
+    {
+        Barra.fillAmount = agua / MaxAgua;
     }
 }
