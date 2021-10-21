@@ -21,10 +21,16 @@ public class scene : MonoBehaviour
     public void changetointro()
     {
         SceneManager.LoadScene("intro");
+    }public void changetointrotim()
+    {
+       Invoke("changetointro", 0.1f);
     }
     public void changetomenu()
     {
         SceneManager.LoadScene("Menu");
+    }public void changetomenubtn()
+    {
+          Invoke("changetomenu", 0.1f);
     }
     public void changetocontrol()
     {
