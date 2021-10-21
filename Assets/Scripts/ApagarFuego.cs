@@ -20,6 +20,7 @@ public class ApagarFuego : MonoBehaviour
                 hitPosition.x = hit.point.x - 0.01f * hit.normal.x;
                 hitPosition.y = hit.point.y - 0.01f * hit.normal.y;
                 destructableTilemap.SetTile(destructableTilemap.WorldToCell(hitPosition), null);
+                GetComponent<AudioClipPlayer>().PlayAudioSimple();
             }
         }
     }
