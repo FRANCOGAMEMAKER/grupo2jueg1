@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 
@@ -28,7 +29,7 @@ bool is_step=false,is_water=false,is_standing=true;
             ddge_curr_dist=0;
             ddge=true;
            og_ddpos=Rb2d.transform.position;
-           target_ddpos=og_ddpos+new Vector2(ddge_dist,ddge_dist);
+           target_ddpos=og_ddpos-new Vector2(ddge_dist,ddge_dist);
         }
         if (ddge&&ddge_curr_dist<1)
         {
@@ -70,4 +71,11 @@ bool is_step=false,is_water=false,is_standing=true;
 
         }
     }
+private void OnTriggerEnter2D(Collider2D other)
+{
+    if(other.tag=="Ouch")
+    {
+        SceneManager.LoadScene("end");
+    }
+}
 }

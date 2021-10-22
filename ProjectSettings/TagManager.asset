@@ -6,6 +6,9 @@ TagManager:
   tags:
   - water
   - Recarga
+  - audio layer0 player
+  - GlobalAUDIO
+  - Ouch
   layers:
   - Default
   - TransparentFX
