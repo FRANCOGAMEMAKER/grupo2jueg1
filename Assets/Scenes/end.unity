@@ -833,7 +833,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1338576984}
         m_TargetAssemblyTypeName: scene, Assembly-CSharp
-        m_MethodName: changetointro
+        m_MethodName: changetomenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
