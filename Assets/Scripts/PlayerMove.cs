@@ -9,8 +9,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float speed,ddge_speed=1,ddge_dist=1,ddge_curr_dist;
-    public Rigidbody2D Rb2d;bool ddge=false;
+    public float speed,ddge_speed=1,ddge_dlay=1,ddge_curr_tim;
+    public Rigidbody2D Rb2d;public bool ddge=false,up=false;
     Vector2 og_ddpos,target_ddpos;
 
 
@@ -24,17 +24,24 @@ bool is_step=false,is_water=false,is_standing=true;
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E)&&ddge==false)
         {
-            ddge_curr_dist=0;
+            ddge_curr_tim=0;
             ddge=true;
            og_ddpos=Rb2d.transform.position;
-           target_ddpos=og_ddpos-new Vector2(ddge_dist,ddge_dist);
+           if(up)
+           {
+ Rb2d.AddForce(new Vector2(0,ddge_speed));
+           }
+           else
+           {
+                Rb2d.AddForce(new Vector2(0,-1*ddge_speed));
+           }
+          
         }
-        if (ddge&&ddge_curr_dist<1)
+        if (ddge&&ddge_curr_tim<1)
         {
-            ddge_curr_dist+=Time.deltaTime*ddge_speed;
-            Rb2d.transform.position= new Vector2(Mathf.Lerp(og_ddpos.x,target_ddpos.x,ddge_curr_dist),Mathf.Lerp(og_ddpos.y,target_ddpos.y,ddge_curr_dist)) ;
+            ddge_curr_tim+=Time.deltaTime/ddge_dlay;
         }
         else{ddge=false;}
         float x = Input.GetAxisRaw("Horizontal");
@@ -76,6 +83,21 @@ private void OnTriggerEnter2D(Collider2D other)
     if(other.tag=="Ouch")
     {
         SceneManager.LoadScene("end");
+    }
+    else
+    {
+        
+    }
+    if (other.tag=="up")
+    {
+        up=true;
+    }
+    else
+    {
+        if (other.tag=="dwn")
+        {
+            up=false;
+        }
     }
 }
 }

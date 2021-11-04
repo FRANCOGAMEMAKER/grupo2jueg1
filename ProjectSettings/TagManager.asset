@@ -9,6 +9,8 @@ TagManager:
   - audio layer0 player
   - GlobalAUDIO
   - Ouch
+  - up
+  - dwn
   layers:
   - Default
   - TransparentFX
