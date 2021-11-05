@@ -13,22 +13,26 @@ public class Disparo : MonoBehaviour
     public Transform TR;
     public float speed;
 
-
+bool yay=true;
     void Update()
     {
         Vector2 Direction = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        if (Input.GetKey(KeyCode.Mouse0) && agua > 0)
+        if (Input.GetKey(KeyCode.Mouse0) && agua > 0&&yay==true)
         {
             GameObject bullet = Instantiate(Bullet, TR.position, TR.rotation);
             Destroy(bullet,0.5f);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.AddForce(TR.right * speed, ForceMode2D.Impulse);
             agua -= 1;
+            yay=false;
+            Invoke("sht",0.05f);
         }
 
         BarraMostrar();
     }
+    void sht()
+    {yay=true;}
    
      private void OnTriggerStay2D(Collider2D collision)
     {
