@@ -25,13 +25,17 @@ public class bush_behaviour : MonoBehaviour
            bein_watered=true;
             fire_health-=0.1f;
             
-            if(fire_health<0&&ded==false){ded=true;
-            fcount.count+=1;if (fcount.count>fcount.max)
+            if(fire_health<0&&ded==false)
+            {ded=true;
+            fcount.count+=1;
+            if (fcount.count>fcount.max)
             {
                 GameObject.FindGameObjectWithTag("Player").GetComponent<Respiracion>().ded=true;
             }
-            else{}Destroy(this.gameObject,0.2f);
-                GetComponent<AudioClipPlayer>().PlayAudioSimple();}
+            else{}
+            Destroy(this.gameObject,0.2f);
+                GetComponent<AudioClipPlayer>().PlayAudioSimple();
+                }
       }
     }
     private void OnCollisionExit2D(Collision2D other)
