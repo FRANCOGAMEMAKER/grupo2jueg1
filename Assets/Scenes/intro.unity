@@ -520,7 +520,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: af6dc09484a19924aa62bb141d876531, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -748,7 +748,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: af6dc09484a19924aa62bb141d876531, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -760,11 +760,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Los efectos del cambio clim\xE1tico y la contaminaci\xF3n ambiental han
-    hecho que el numero de incendios forestales hayan ido en aumento cada a\xF1o.\r\nUn
+  m_Text: "Los efectos del cambio climatico y la contaminacion ambiental han hecho
+    que el numero de incendios forestales hayan ido en aumento cada a\xF1o.\r\nUn
     bombero recibe una llamada sobre un gran incendio que esta ocurriendo en un bosque
     cercano, y sin pensarlo 2 veces toma equipo y se dirige a combatirlo, sin saber
-    que las cosas no saldr\xE1n como espera\u2026.\r\n"
+    que las cosas no saldran como espera\u2026.\r\n"
 --- !u!222 &1132443395
 CanvasRenderer:
   m_ObjectHideFlags: 0
