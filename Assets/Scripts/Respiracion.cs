@@ -11,15 +11,20 @@ public class Respiracion : MonoBehaviour
     public bool ActivarRespiracion = true;
     public float Oxigeno;
     float MaxOxigeno = 1;
+    public bool ded=false;
     void Update()
     {
+        if(ded)
+        {
+             Oxigeno += 0.08f*Time.deltaTime;
+        }
         if(ActivarRespiracion)
-        Oxigeno += 0.001f;
+        Oxigeno += 0.08f*Time.deltaTime;
 
         OSCURECER.color = new Color(0f, 0f, 0f, Oxigeno);
 
-        if(Input.GetKeyUp(KeyCode.Mouse1))
-            Oxigeno -= 0.25f;
+        if(Input.GetKeyUp(KeyCode.Mouse1)&&ded==false)
+            Oxigeno -= 5*Time.deltaTime;
 
         if (Oxigeno > MaxOxigeno)
             changedead();
